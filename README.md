@@ -9,6 +9,8 @@ By integrating deep learning with robust classical machine learning techniques, 
 
 **Proposed System:**
 The proposed system for skin cancer detection operates through a structured pipeline designed to facilitate accurate diagnosis from low-resolution telehealth images
+
+
 <img width="663" height="373" alt="image" src="https://github.com/user-attachments/assets/4af4f33e-8def-43ba-8b45-cc8e70e1028b" />
 
 The proposed system enhances skin cancer diagnosis by combining deep feature extraction 
