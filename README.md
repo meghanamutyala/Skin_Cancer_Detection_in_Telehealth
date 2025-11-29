@@ -5,6 +5,8 @@ This project, Skin Cancer Detection for Telehealth, aims to bridge this gap by l
 By integrating deep learning with robust classical machine learning techniques, this project demonstrates a practical and effective solution for accessible, scalable, and reliable skin cancer detection in telehealth environments.
 
 **Dataset: ISIC 2024 [kaggle competitions download -c isic-2024-challenge]**
+
+
 **Proposed System:**
 The proposed system for skin cancer detection operates through a structured pipeline designed to facilitate accurate diagnosis from low-resolution telehealth images
 <img width="663" height="373" alt="image" src="https://github.com/user-attachments/assets/4af4f33e-8def-43ba-8b45-cc8e70e1028b" />
@@ -25,6 +27,8 @@ representations, which were then fed into various classifiers, including Support
 Machines (SVM), Neural Networks (NN), and Random Forests (RF). After thorough 
 evaluation, we found that the highest classification accuracy 80.50% was achieved using 
 features extracted from ResNet-50’s conv5_block2 layer.
+
+
 <img width="801" height="421" alt="image" src="https://github.com/user-attachments/assets/221c3322-ef4a-440f-a1e4-900054b76bcf" />
 
 
@@ -36,6 +40,8 @@ on MaxPooling, we introduced a 256-channel bottleneck layer to retain more infor
 features. Additionally, we optimized training by using fewer steps per epoch and clearing GPU 
 memory before each session to prevent crashes. The bottleneck layer’s compressed yet 
 meaningful representation provided another set of valuable features for classification.
+
+
 <img width="569" height="262" alt="image" src="https://github.com/user-attachments/assets/89f9c352-e5b9-434b-8347-b97698442e02" />
 
 
@@ -46,6 +52,7 @@ maximized class separability by projecting the features onto a lower-dimensional
 optimized features were then classified using SVM, NN, and RF. The highest accuracy 91.8% 
 was achieved using SVM, demonstrating the effectiveness of our approach in distinguishing 
 between benign and malignant skin lesions.
+
 
 <img width="772" height="405" alt="image" src="https://github.com/user-attachments/assets/c5cde063-babb-4425-be0d-71db785ce2bf" />
 
